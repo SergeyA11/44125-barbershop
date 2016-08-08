@@ -38,7 +38,7 @@
 <main class="container">
     <h1>средства для ухода</h1>
     <section>
-        <nav class="breadcrumbs">
+        <div class="breadcrumbs">
             <ul>
                 <li>
                     <a href="#">главная</a>
@@ -50,48 +50,46 @@
                     <a href="#">средства для ухода</a>
                 </li>
             </ul>
-        </nav>
+        </div>
     </section>
     <article class="filters">
+    <form action="#" method="post">
     <section class="manufactures">
         <h2>производители:</h2>
-      <form action="#" method="post">
           <label>
               <input type="checkbox" name="manufacturer-1" checked>BAXTER OF CALIFORNIA
           </label>
-           <label>
+          <label>
               <input type="checkbox" name="manufacturer-2" >MR NATTY
           </label>
-           <label>
-              <input type="checkbox" name="manufacturer-3" checked>SUAVECITO
+          <label>
+            <input type="checkbox" name="manufacturer-3" checked>SUAVECITO
           </label>
            <label>
               <input type="checkbox" name="manufacturer-4" >MALIN-GOETZ
           </label>
-           <label>
-              <input type="checkbox" name="manufacturer-5" >MURRAY'S
+          <label>
+            <input type="checkbox" name="manufacturer-5" >MURRAY'S
           </label>
-           <label>
-              <input type="checkbox" name="manufacturer-6" checked>AMERICAN CREW
+          <label>
+            <input type="checkbox" name="manufacturer-6" checked>AMERICAN CREW
           </label>
-      </form>
-    </section class="groups of goods">
-    <section>
-        <h2>группы товаров:</h2>
-        <form action="#" method="post">
-            <label>
-                <input type="radio" name="goods" value="бритвенные принадлежности"> бритвенные принадлежности
-            </label>
-            <label>
-                <input type="radio" name="goods" value="средства для ухода" checked> средства для ухода
-            </label>
-            <label>
-                <input type="radio" name="goods" value="аксессуары"> аксессуары
-            </label>
-        </form>
     </section>
-        <button type="submit" class="btn" name="filter" value="показать">показать</button>
-<article>
+    <section class="groups of goods">
+        <h2>группы товаров:</h2>
+            <label>
+                <input type="radio" name="goods" value="accessories for razor"> бритвенные принадлежности
+            </label>
+            <label>
+                <input type="radio" name="goods" value="care" checked> средства для ухода
+            </label>
+            <label>
+                <input type="radio" name="goods" value="accessories"> аксессуары
+            </label>
+        </section>
+        <button type="submit" class="btn" name="filter" value="show">показать</button>
+      </form>
+    <article>
     <article class="cards">
         <img src="http://placehold.it/150x100">
         <h3 class="cards-title">Набор для путешествий "BAXTER OF CALIFORNIA" </h3>
