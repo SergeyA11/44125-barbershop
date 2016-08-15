@@ -1,0 +1,23 @@
+style.css
+body {
+  font-size: 24px;
+  line-height: 30px;
+  color: black;
+  font-weight: normal;
+  font-family: "NarrowBold";
+}
+.first-title {
+  font-size: 30px;
+  line-height: 42px;
+  color: black;
+  font-weight: normal;
+  font-family: "NarrowBold";
+}
+.second-title
+{
+  font-size: 24px;
+  line-height: 30px;
+  color: black;
+  font-weight: normal;
+  font-family: "NarrowBold";
+}
